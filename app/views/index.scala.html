@@ -1,7 +1,9 @@
-@(message: String)
+@(message: String, user: User, anotherString: String)
 
 @main("Welcome to Play 2.1") {
     
-    @play20.welcome(message, style = "Java")
-    
-}
+ <h1>@message</h1>
+ 
+ Ditt namn är: @user.name
+ @anotherString
+ }
