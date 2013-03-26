@@ -11,14 +11,8 @@ public class Application extends Controller {
   
     public static Result index() {
     	User user = new User("Helena");
-    	
-        return ok(index.render("Funkar det nu då?.", user, "hej hej"));
+        return ok(index.render("Is this working?", user, "Hej hej :-) "));
     }
-    
-    public static Result login() {
-    	return redirect(routes.Application.index());       
-    }
-    
    
   
 }
