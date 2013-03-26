@@ -1,4 +1,17 @@
 This is your new Play 2.1 application
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+This "supersimple" application is created only to verify that the Play2 plugin is working properly. 
+
+This has been tested (and failed) with the following setup: 
+
+This is what I do: 
+1. Download the latest Juno release: http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr2
+2. Install the Scala IDE (for Scala 2.10 and Eclise Juno) : http://download.scala-ide.org/sdk/e38/scala210/stable/site (according to the info on this page: http://scala-ide.org/download/current.html)
+3. Install the Scala IDE Play 2 plugin: http://download.scala-ide.org/play2/nightly_3.0-M_juno_2.10-M/site/  (according to the info on this page: https://github.com/scala-ide/scala-ide-play2/wiki)
+4. Creating a Play 2.1 JAVA project - and getting it ready for Eclipse ( $play eclipse) .
+5. Checking to "add Scala nature" according to the known issues of the Scala-IDE-play2 plugin: https://github.com/scala-ide/scala-ide-play2/wiki/Known-Problems 
+
+Discussion on Google Group: 
+https://groups.google.com/forum/?fromgroups=#!searchin/scala-ide-user/code$20completion%7Csort:date/scala-ide-user/DbjKh1JPpDE/Z0RIrQy1dR8J
+
