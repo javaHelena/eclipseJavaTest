@@ -11,7 +11,7 @@ public class Application extends Controller {
   
     public static Result index() {
     	User user = new User("Helena");
-        return ok(index.render("Is this working?", user, "Hej hej :-) "));
+        return ok(index.render("Hej and goodbye :-) ", user));
     }
    
   

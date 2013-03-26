@@ -1,9 +1,10 @@
-@(message: String, user: User, anotherString: String)
+@(message: String, user: User)
 
 @main("Welcome to Play 2.1") {
     
- <h1>@message</h1>
+  <h1>Code Completion in Play Templates</h1>
+  This is a simple app to verify code completion in Play! templates.
  
-<p>My name is: @user.name</p>
- @anotherString
+  <p>My name is: @user.name</p>
+   @message
  }
