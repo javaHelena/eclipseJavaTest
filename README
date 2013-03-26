@@ -3,7 +3,7 @@ This is your new Play 2.1 application
 
 This "supersimple" application is created only to verify that the Play2 plugin is working properly. 
 
-This has been tested (and failed) with the following setup: 
+This has been tested (and failed for code completion) with the following setup: 
 
 This is what I do: 
 1. Download the latest Juno release: http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr2
@@ -14,3 +14,6 @@ This is what I do:
 
 Discussion on Google Group: 
 https://groups.google.com/forum/?fromgroups=#!searchin/scala-ide-user/code$20completion%7Csort:date/scala-ide-user/DbjKh1JPpDE/Z0RIrQy1dR8J
+
+Additional info: 
+Templates must be opened with the Play Template Editor, rather than the HTML editor.
